@@ -1,11 +1,11 @@
-import './index.css';
+import './index.scss';
 
 import { Link } from 'react-router-dom'
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Estudos de React Js</h1>
+    <div className="pagina-app">
+      <h1 className='titulo's>Estudos de React Js</h1>
 
       <ul>
         <li>

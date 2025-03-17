@@ -1,14 +1,16 @@
 
-.page-not-found {
+.pagina-nao-encontrado {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
+    .titulo{
+        font-size: 15px;
+    }
+
+    .img-not-found{
+
+    }
 }
 
-.title{
-    font-size: 15px;
-}
-.img-not-found{
-
-}
