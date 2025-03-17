@@ -4,6 +4,7 @@ import App from "./pages/app";
 import Contato from "./pages/contato";
 import NotFound from './pages/notFound';
 import Eventos from "./pages/eventos";
+import VarEstado from "./pages/varEstado";
 
 export default function Navegecao() {
 
@@ -13,6 +14,7 @@ export default function Navegecao() {
         <Route path="/" element={<App />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/eventos" element= { <Eventos/> } />
+        <Route path="/varEstado" element= { <VarEstado/> } />
         <Route path="*" element = { <NotFound/> }/>
       </Routes>
     </BrowserRouter>

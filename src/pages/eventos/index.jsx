@@ -17,8 +17,6 @@ export default function Eventos() {
     alert("O usuario acaba de alterar o valor do input para: " + valor);
   }
 
-  fuc
-
   return (
     <div className="pagina-eventos pagina">
       <header className="cabecalho">
