@@ -31,6 +31,9 @@ export default function App() {
           <li>
             <Link to="/contato">Ir para contato</Link>
           </li>
+          <li>
+            <Link to="/eventos">Ir para eventos</Link>
+          </li>
         </ul>
       </section>
     </div>
